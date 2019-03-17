@@ -13,5 +13,8 @@
   "peerDependencies": {
     "eslint": ">= 3"
   },
-  "gitHead": "019f944442eb1e7ada796bd434faabe243499ae1"
+  "gitHead": "019f944442eb1e7ada796bd434faabe243499ae1",
+  "publishConfig": {
+    "access": "public"
+  }
 }
