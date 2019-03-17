@@ -17,7 +17,7 @@
   "dependencies": {
     "joi": "^14.3.1"
   },
-  "gitHead": "019f944442eb1e7ada796bd434faabe243499ae1",
+  "gitHead": "b9f7c89a59270ae71706bffb3bcf8a59fc3bd667",
   "publishConfig": {
     "access": "public"
   }
