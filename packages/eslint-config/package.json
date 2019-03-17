@@ -1,6 +1,6 @@
 {
   "name": "@tomfischer/eslint-config",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "main": ".eslintrc.js",
   "author": "Tom Fischer",
   "license": "ISC",
