@@ -18,7 +18,5 @@
     "eslint-plugin-prettier": "^3.0.1",
     "prettier": "^1.16.4"
   },
-  "publishConfig": {
-    "access": "public"
-  }
+  "gitHead": "d8ce7084e1e6a54530495b16d29bf83ec0d691b6"
 }

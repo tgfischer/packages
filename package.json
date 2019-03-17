@@ -1,18 +1,12 @@
 {
-  "name": "tomfischer",
+  "name": "packages",
   "author": "Tom Fischer",
   "license": "ISC",
   "version": "1.0.0",
-  "description": "My portfolio website",
+  "description": "A collection of common packages that I share between projects",
   "main": "index.js",
   "private": true,
-  "scripts": {
-    "deploy": "node ./scripts/deploy",
-    "destroy": "node ./scripts/destroy"
-  },
   "devDependencies": {
-    "lerna": "^3.13.1",
-    "minimist": "^1.2.0",
-    "shelljs": "^0.8.3"
+    "lerna": "^3.13.1"
   }
 }
