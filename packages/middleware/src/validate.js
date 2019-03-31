@@ -7,7 +7,7 @@ module.exports.types = {
   QUERY: "query"
 };
 
-module.exports = (schema, type) =>
+module.exports.validate = (schema, type) =>
   asyncHandler(async (req, res, next) => {
     try {
       const result = await schema.validate(req[type]);
