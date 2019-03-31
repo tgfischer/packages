@@ -1,11 +1,17 @@
 const HttpStatus = require("http-status-codes");
 const asyncHandler = require("express-async-handler");
 
-module.exports.body = schema =>
-  asyncHandler(async ({ body }, res, next) => {
+module.exports.types = {
+  BODY: "body",
+  PARAMS: "params",
+  QUERY: "query"
+};
+
+module.exports = (schema, type) =>
+  asyncHandler(async (req, res, next) => {
     try {
-      const result = await schema.validate(body);
-      res.locals.body = result;
+      const result = await schema.validate(req[type]);
+      res.locals[type] = result;
       next();
     } catch (err) {
       next({

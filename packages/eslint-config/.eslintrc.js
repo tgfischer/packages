@@ -6,7 +6,8 @@ module.exports = {
     ecmaVersion: 9
   },
   env: {
-    es6: true
+    es6: true,
+    node: true
   },
   rules: {
     "no-unused-vars": ["error", { ignoreRestSiblings: true }],
